@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 ) 
-//oh man
 
-func Add(a, b int) int {
-	return a + b
+func Add(a, b, c int) int {
+	return a + b + c
 }
 
 func main() {
